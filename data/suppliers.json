@@ -1,0 +1,32 @@
+{
+  "SUP001": {
+    "name": "TechCorp Industries",
+    "status": "approved",
+    "rating": 4.2,
+    "payment_terms": "NET30",
+    "categories": ["electronics", "components"],
+    "risk_score": "low",
+    "max_order_value": 250000,
+    "contact_email": "orders@techcorp.com"
+  },
+  "SUP002": {
+    "name": "Global Materials Ltd",
+    "status": "approved", 
+    "rating": 3.8,
+    "payment_terms": "NET45",
+    "categories": ["raw_materials"],
+    "risk_score": "medium",
+    "max_order_value": 150000,
+    "contact_email": "procurement@globalmaterials.com"
+  },
+  "SUP003": {
+    "name": "Office Solutions Inc",
+    "status": "approved",
+    "rating": 4.5,
+    "payment_terms": "NET15",
+    "categories": ["office_supplies", "furniture"],
+    "risk_score": "low",
+    "max_order_value": 50000,
+    "contact_email": "sales@officesolutions.com"
+  }
+}
