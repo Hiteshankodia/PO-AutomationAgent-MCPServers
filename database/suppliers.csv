@@ -1,0 +1,8 @@
+supplier_id,name,status,rating,payment_terms,categories,risk_score,max_order_value,contact_email
+SUP001,TechCorp Industries,approved,4.2,NET30,"electronics,components",low,250000,orders@techcorp.com
+SUP002,Global Materials Ltd,approved,3.8,NET45,raw_materials,medium,150000,procurement@globalmaterials.com
+SUP003,Office Solutions Inc,approved,4.5,NET15,"office_supplies,furniture",low,50000,sales@officesolutions.com
+SUP004,Industrial Equipment Co,approved,3.9,NET30,"machinery,equipment",medium,500000,sales@industrial-eq.com
+SUP005,Software Solutions Ltd,approved,4.7,NET15,software,low,100000,contact@softwaresolutions.com
+SUP006,Chemical Supplies Inc,pending,3.2,NET45,chemicals,high,75000,orders@chemsupply.com
+SUP007,Electronics Wholesale,approved,4.1,NET30,"electronics,components",low,200000,wholesale@electronics.com
