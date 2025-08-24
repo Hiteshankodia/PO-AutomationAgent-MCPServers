@@ -1,0 +1,7 @@
+department_id,name,allocated,spent,reserved,fiscal_year,manager_email
+dept_001,IT Department,100000,45000,15000,2025,it.manager@company.com
+dept_002,Marketing Department,75000,32000,8000,2025,marketing.manager@company.com
+dept_003,Operations Department,150000,89000,25000,2025,ops.manager@company.com
+dept_004,HR Department,50000,28000,5000,2025,hr.manager@company.com
+dept_005,Finance Department,80000,35000,10000,2025,finance.manager@company.com
+dept_006,Research & Development,200000,120000,30000,2025,rd.manager@company.com
