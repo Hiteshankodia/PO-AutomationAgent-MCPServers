@@ -1,0 +1,6 @@
+approver_role,name,email,department,active
+supervisor,John Smith,john.smith@company.com,Management,TRUE
+manager,Sarah Johnson,sarah.johnson@company.com,Management,TRUE
+director,Michael Brown,michael.brown@company.com,Executive,TRUE
+cfo,Lisa Davis,lisa.davis@company.com,Finance,TRUE
+ceo,Robert Wilson,robert.wilson@company.com,Executive,TRUE
