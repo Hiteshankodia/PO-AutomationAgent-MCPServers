@@ -1,0 +1,42 @@
+{
+  "mcpServers": {
+    "supplier-service": {
+      "command": "python",
+      "args": ["mcp_servers/supplier_server.py"],
+      "env": {
+        "DATA_PATH": "data/suppliers.json"
+      }
+    },
+    "budget-service": {
+      "command": "python", 
+      "args": ["mcp_servers/budget_server.py"],
+      "env": {
+        "DATA_PATH": "data/budgets.json"
+      }
+    },
+    "approval-service": {
+      "command": "python",
+      "args": ["mcp_servers/approval_server.py"],
+      "env": {
+        "DATA_PATH": "data/approval_matrix.json"
+      }
+    },
+    "notification-service": {
+      "command": "python",
+      "args": ["mcp_servers/notification_server.py"]
+    },
+    "payment-service": {
+      "command": "python",
+      "args": ["mcp_servers/payment_server.py"],
+      "env": {
+        "DB_SERVER": "axisdmt.database.windows.net",
+        "DB_DATABASE": "AdventureWorks2019",
+        "DB_USERNAME": "axisdmt",
+        "DB_PASSWORD": "Admin@123",
+        "DB_CONNECTION_TIMEOUT": "30",
+        "DB_ENCRYPT": "yes",
+        "DB_TRUST_CERT": "yes"
+      }
+    }
+  }
+}
