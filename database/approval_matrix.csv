@@ -1,0 +1,5 @@
+id,max_amount,required_approvers,auto_approve,description
+1,1000,NULL,TRUE,Auto-approve for amounts under $1000
+2,10000,supervisor,FALSE,Supervisor approval required for $1001-$10000
+3,50000,"supervisor,manager",FALSE,Supervisor and Manager approval for $10001-$50000
+4,999999999,"supervisor,manager,director",FALSE,All levels approval for amounts over $50000
