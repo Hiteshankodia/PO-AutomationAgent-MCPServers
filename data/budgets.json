@@ -1,0 +1,23 @@
+{
+  "dept_001": {
+    "name": "IT Department",
+    "allocated": 100000,
+    "spent": 45000,
+    "reserved": 45000.0,
+    "fiscal_year": "2025"
+  },
+  "dept_002": {
+    "name": "Marketing Department",
+    "allocated": 75000,
+    "spent": 32000,
+    "reserved": 21000.0,
+    "fiscal_year": "2025"
+  },
+  "dept_003": {
+    "name": "Operations Department",
+    "allocated": 150000,
+    "spent": 89000,
+    "reserved": 25000,
+    "fiscal_year": "2025"
+  }
+}
