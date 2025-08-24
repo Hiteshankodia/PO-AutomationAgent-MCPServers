@@ -1,0 +1,41 @@
+{
+  "thresholds": [
+    {
+      "max_amount": 1000,
+      "required_approvers": [],
+      "auto_approve": true
+    },
+    {
+      "max_amount": 10000,
+      "required_approvers": ["supervisor"],
+      "auto_approve": false
+    },
+    {
+      "max_amount": 50000,
+      "required_approvers": ["supervisor", "manager"],
+      "auto_approve": false
+    },
+    {
+      "max_amount": 999999999,
+      "required_approvers": ["supervisor", "manager", "director"],
+      "auto_approve": false
+    }
+  ],
+  "approvers": {
+    "supervisor": {
+      "name": "John Smith",
+      "email": "john.smith@company.com",
+      "role": "Supervisor"
+    },
+    "manager": {
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@company.com",
+      "role": "Manager"
+    },
+    "director": {
+      "name": "Michael Brown",
+      "email": "michael.brown@company.com",
+      "role": "Director"
+    }
+  }
+}
